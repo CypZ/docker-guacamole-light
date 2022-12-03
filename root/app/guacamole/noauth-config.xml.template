@@ -1,0 +1,16 @@
+<configs>
+  <config name="FOOBAR-RDP" protocol="rdp">
+     <param name="hostname" value="FOOBAR.contoso.com" />
+     <param name="port" value="3389" />
+     <param name="server-layout" value="fr-fr-azerty" />
+     <param name="ignore-cert" value="true" />
+     <param name="disable-audio" value="true" />
+     <param name="username" value="foo" />
+     <!--<param name="password" value="password in clear text removed" />-->
+  </config>
+  <config name="FOOBAR-SSH" protocol="ssh">
+     <param name="hostname" value="FOOBAR.contoso.com" />
+     <param name="port" value="22" />
+     <param name="username" value="foo" />
+  </config>
+</configs>
